@@ -1,189 +1,98 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Hanno I. Hennighausen
+  label: Theoretical physicist · PhD candidate
+  location: Dresden, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: Theoretical physicist working on the physics of cells and tissues — active matter, continuum modeling, and quantitative data analysis, in close collaboration with experimental labs.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: MPI for the Physics of Complex Systems & Center for Systems Biology Dresden
+        location: Dresden, Germany
+        area: Theoretical Physics (Dr. rer. nat.); degree from TU Dresden
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2022
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Internal mechanical guidance of collective cell migration"
+          - "Supervisor: Prof. Ricard Alert · University advisor: Prof. Otger Campàs"
+          - "Expected completion: early 2027"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
+      - institution: Philipps University Marburg
+        location: Marburg, Germany
         area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+        studyType: M.Sc.
+        start_date: 2020
+        end_date: 2022
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Modeling stochastic protein dynamics in bacteria, at the MPI for Terrestrial Microbiology (Dept. of Prof. Victor Sourjik, group of Dr. Sean Murray)"
+          - Awarded highest grade
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - institution: Johns Hopkins University
+        location: Baltimore, US
+        area: "Guest researcher with Prof. Brian Camley"
+        studyType: Visit
+        start_date: 2020
+        end_date: 2020
         highlights:
-          - Relativity
-          - Description 2.
+          - "Project: Polarization under stress in a collective cell migration model"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - institution: Heidelberg University
+        location: Heidelberg, Germany
+        area: Physics
+        studyType: B.Sc.
+        start_date: 2016
+        end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: A two-dimensional finite element implementation of a red blood cell in a microfluidic channel, with Prof. Ulrich Schwarz"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    Fellowships and visits:
+      - bullet: "**2022–present** · International Max Planck Research School for Cell, Developmental and Systems Biology"
+      - bullet: "**2026** · Guest researcher, University of Barcelona, with Prof. Ricard Alert"
+      - bullet: "**2017–2022** · Scholarship, Evangelisches Studienwerk Villigst (German national scholarship foundation for outstanding students)"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Best Poster Award, IMPRS PhD retreat
+        date: 2025
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Selected to present the Biological Physics Division to the MPI-PKS Scientific Advisory Board
+        date: 2025
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: M.Sc. thesis awarded highest grade
+        date: 2022
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Selected talks:
+      - bullet: "**2026** · Invited seminar, Biozentrum Basel, Switzerland"
+      - bullet: "**2026** · APS Global Physics Summit, Denver, USA"
+      - bullet: "**2026** · Selected talk, international workshop ‘Phases of Collective Cellular Behavior: Rheology, Order & Feedback’, Dresden, Germany"
+      - bullet: "**2025** · Gordon Research School on Directed Cell Migration, Lucca, Italy"
+      - bullet: "**2025** · Seminar, group of Prof. Xavier Trepat, IBEC Barcelona (online)"
+      - bullet: "**2025, 2023** · Seminar, MPI of Molecular Cell Biology and Genetics, Dresden"
+      - bullet: "**2024** · Physical Biology Circle Meeting, Oeiras, Portugal"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Teaching and outreach:
+      - bullet: "**2025** · Teaching assistant, Mathematical Methods, TU Dresden"
+      - bullet: "**2024** · Teaching assistant, Electrodynamics, TU Dresden"
+      - bullet: "**2025** · Supervised two high-school internships at CSBD and MPI-PKS"
+      - bullet: "**2023–2024** · Organizer, Science on Board (Dresden-wide PhD chalk talks and science communication)"
+      - bullet: "**2023–2024** · Elected student representative, IMPRS for Cell, Developmental and Systems Biology"
+      - bullet: "**2021–2022** · Elected spokesperson for scholarship holders in Marburg; organizer of a workshop on digital transformation (Evangelisches Studienwerk Villigst)"
+
+    Peer review:
+      - bullet: "Co-reviewer for Physical Review X and Nature Communications."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Theory
+        keywords: "active matter hydrodynamics, continuum mechanics, thin-film and fluid mechanics, wetting, nonlinear dynamical systems, reaction-diffusion systems"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Computation
+        keywords: "numerical PDE solvers, finite element simulations, Gillespie and Monte Carlo simulations"
 
-      - name: English
-        summary: "Fluent"
+      - name: Data
+        keywords: "quantitative and statistical analysis of experimental data"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: "[TODO: programming languages and tools]"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Experimental exposure
+        keywords: "zebrafish morphogenesis and regeneration, microscopy, wet-lab work (one-month collaborative project; led the theoretical modeling)"

@@ -1,0 +1,34 @@
+---
+# Shadows al_folio_core's assets/css/main.scss to set the light-mode accent.
+# Only change vs. the gem file: $purple-color is configured to a soft orange.
+# Keep the @use list in sync with the gem if it changes on upgrade.
+---
+@charset "utf-8";
+
+/* Built-in Sass modules */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure design tokens BEFORE loading any partials.
+   Light-mode accent (--global-theme-color) is $purple-color; dark mode uses $cyan-color. */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }},
+  $purple-color: #e07b39
+);
+
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";

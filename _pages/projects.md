@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: research
+permalink: /research/
+description: Minimal physical models of how cells and tissues sense and reshape their environment.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research]
 horizontal: false
 ---
 
