@@ -24,6 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a theoretical physicist finishing my PhD at the Max Planck Institute for the Physics of Complex Systems and the Center for Systems Biology Dresden, supervised by Ricard Alert. I study how cells and tissues sense and reshape their physical environment, and how the resulting feedback loops organize collective behavior, from cell clusters steered by internal stiffness gradients to tissues that spread like active liquids. My approach is to distill complex biological behavior and experimental data into minimal physical models, in close collaboration with experimental labs. Along the way I've built a toolkit in continuum modeling, numerical simulation, and quantitative data analysis.
+I'm a theoretical physicist finishing my PhD at the Max Planck Institute for the Physics of Complex Systems and the Center for Systems Biology Dresden, supervised by Ricard Alert. I study how cells and tissues sense and reshape their physical environment, and how the resulting feedback loops organize collective behavior. Along the way I've built a toolkit in continuum modeling, numerical simulation, and quantitative data analysis. Above all, I'm passionate about curiosity-driven science, so please reach out if anything here sparks your interest or with whatever you are passionate about.
 
+<style>
+  .profile img, img.preview, .preview img { box-shadow: none !important; border-radius: 0 !important; }
+</style>
 <script defer src="{{ '/assets/js/publication_preview_links.js' | relative_url }}"></script>

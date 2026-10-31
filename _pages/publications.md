@@ -19,4 +19,7 @@ nav_order: 2
 
 </div>
 
+<style>
+  img.preview, .preview img { box-shadow: none !important; border-radius: 0 !important; }
+</style>
 <script defer src="{{ '/assets/js/publication_preview_links.js' | relative_url }}"></script>

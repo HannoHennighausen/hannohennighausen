@@ -17,7 +17,7 @@ Directionally migrating clusters aren't fully symmetric: their front and back me
 [arXiv:2610.03536](https://arxiv.org/abs/2610.03536)
   </div>
   <div class="col-md-5">
-    {% include figure.liquid loading="eager" path="assets/img/shape_asymmetry.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/shape_asymmetry.jpg" class="img-fluid" zoomable=true %}
   </div>
 </div>
 

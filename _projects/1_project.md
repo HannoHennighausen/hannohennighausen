@@ -17,7 +17,7 @@ Spreading cell aggregates behave like droplets: they can stay as a compact clust
 [arXiv:2608.28912](https://arxiv.org/abs/2608.28912)
   </div>
   <div class="col-md-5">
-    {% include figure.liquid loading="eager" path="assets/img/active_wetting.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/active_wetting.jpg" class="img-fluid" zoomable=true %}
   </div>
 </div>
 
@@ -31,9 +31,9 @@ Cells generate active forces, and both cell–cell and cell–substrate adhesion
 
 In a passive droplet these forces act only at the contact line. Here they are generated throughout the basal layer and drive active flows inside the tissue.
 
-## Edge flow sets the fate of the cluster
+## Spreading velocity sets the fate of the cluster
 
-The central idea is simple: the flow at the edge decides what the cluster does. Positive edge flow means it **spreads**, negative means it **retracts**, and zero means it sits at a **steady state**. Locating these zeros of the spreading velocity $V(L)$ maps out the active wetting transition. We distinguish **stable** steady states (filled circles ●) from **unstable** ones (open circles ○).
+The central idea is simple: the spreading velocity decides what the cluster does. A positive value means it **spreads**, a negative one means it **retracts**, and zero means it sits at a **steady state**. Locating these zeros of the spreading velocity $V(L)$ maps out the active wetting transition. We distinguish **stable** steady states (filled circles ●) from **unstable** ones (open circles ○).
 
 Play with the three active forces below and check your intuition:
 
@@ -46,7 +46,7 @@ The curve is the spreading velocity $V$ versus cluster half-width $L$ (Eq. C7 of
 
 - Can you find a parameter regime where $V(L)$ is **tristable** — three steady states at once? There, what is the effect of each force on the stable and unstable branches?
 
-## A twist you won't find in passive droplets
+## Dissipation also controls the transition
 
 Here is the most striking difference from passive wetting. Because the active forces drive flows in the basal layer, the magnitude of those flows is set by _dissipative_ parameters — the tissue's viscosity and friction. Tuning these can therefore **stabilize or destabilize** the wetting state. In a passive droplet, friction and viscosity would only change how _fast_ the droplet relaxes toward equilibrium — never _whether_ the transition happens at all. Activity overturns that: can you find a regime where **lowering** the friction coefficient $\xi$ makes the partial-wetting state disappear?
 

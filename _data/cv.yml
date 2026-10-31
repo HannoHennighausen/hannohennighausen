@@ -9,6 +9,7 @@ cv:
     Education:
       - institution: MPI for the Physics of Complex Systems & Center for Systems Biology Dresden
         location: Dresden, Germany
+        logos: [mpipks.svg, csbd.jpg, tudresden.png]
         area: Theoretical Physics (Dr. rer. nat.); degree from TU Dresden
         studyType: PhD
         start_date: 2022
@@ -20,6 +21,7 @@ cv:
 
       - institution: Philipps University Marburg
         location: Marburg, Germany
+        logos: [marburg.svg]
         area: Physics
         studyType: M.Sc.
         start_date: 2020
@@ -30,6 +32,7 @@ cv:
 
       - institution: Johns Hopkins University
         location: Baltimore, US
+        logos: [hopkins.svg]
         area: "Guest researcher with Prof. Brian Camley"
         studyType: Visit
         start_date: 2020
@@ -39,6 +42,7 @@ cv:
 
       - institution: Heidelberg University
         location: Heidelberg, Germany
+        logos: [heidelberg.jpg]
         area: Physics
         studyType: B.Sc.
         start_date: 2016
@@ -48,7 +52,7 @@ cv:
 
     Fellowships and visits:
       - bullet: "**2022–present** · International Max Planck Research School for Cell, Developmental and Systems Biology"
-      - bullet: "**2026** · Guest researcher, University of Barcelona, with Prof. Ricard Alert"
+      - bullet: '**2026** · Guest researcher, University of Barcelona, with Prof. Ricard Alert <img src="/assets/img/logos/barcelona.png" alt="University of Barcelona" style="height:26px;margin:0 0 0 8px;background:#fff;padding:3px 5px;border-radius:5px;border:.5px solid var(--global-divider-color);vertical-align:middle">'
       - bullet: "**2017–2022** · Scholarship, Evangelisches Studienwerk Villigst (German national scholarship foundation for outstanding students)"
 
     Awards:
@@ -82,17 +86,16 @@ cv:
       - bullet: "Co-reviewer for Physical Review X and Nature Communications."
 
     Skills:
-      - name: Theory
-        keywords: "active matter hydrodynamics, continuum mechanics, thin-film and fluid mechanics, wetting, nonlinear dynamical systems, reaction-diffusion systems"
-
-      - name: Computation
-        keywords: "numerical PDE solvers, finite element simulations, Gillespie and Monte Carlo simulations"
-
-      - name: Data
-        keywords: "quantitative and statistical analysis of experimental data"
-
       - name: Programming
-        keywords: "[TODO: programming languages and tools]"
+        lines:
+          - "**Advanced:** Python (NumPy, SciPy, pandas); Git; high-performance computing (Slurm); LaTeX"
+          - "**Basic:** Julia, C++, MATLAB, Mathematica; agentic coding"
 
-      - name: Experimental exposure
-        keywords: "zebrafish morphogenesis and regeneration, microscopy, wet-lab work (one-month collaborative project; led the theoretical modeling)"
+      - name: Quantitative methods
+        keywords: "stochastic simulation, statistical physics, numerical methods"
+
+      - name: Office and design
+        keywords: "Microsoft Office (Word, Excel, PowerPoint, Outlook); Adobe Illustrator; scientific animation (Manim)"
+
+      - name: Languages
+        keywords: "German and English (native), Latin (Latinum), and Ancient Greek (Graecum)"
